@@ -1,0 +1,4 @@
+USER CREATE
+    forilise_userID: message.guild.id,
+    forilise_userPremium: false,
+    forilise_userBlacklist: false

@@ -1,0 +1,22 @@
+const mongoose = require('mongoose');
+const forilise_config = require('../foriliseconfig.js');
+
+// Connecting with database.
+mongoose.connect(forilise_config.mongoose, { 
+    // options
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+}).then(() =>{ // connected with sucess. 
+    console.log(`[Forilise | Database@Test]: Connected with sucess.`);
+}).catch((error) =>{ // if error
+    console.log(`[Forilise | Database@Error]: `+ error); 
+});
+
+const forilise_userModel = mongoose.model({
+    forilise_userID: { type: String, required: true },
+    forilise_userPremium: { type: Boolean, required: true },
+    forilise_userBlacklist: { type: Boolean, required: true }
+});
+
+const fuM = mongoose.model('Forilise_Users', forilise_userModel);
+module.exports = fuM;

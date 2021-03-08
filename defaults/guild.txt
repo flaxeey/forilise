@@ -1,0 +1,23 @@
+ GUILD CREATE
+                forilise_serverID: guild.id,
+                forilise_serverPremium: false,
+                forilise_serverBlacklist: false,
+                forilise_welcomeChannel: 0,
+                forilise_byeChannel: 0,
+                forilise_serverLogs: false,
+                forilise_messageLogsID: false,
+                forilise_messageLogsTypes: [],
+                forilise_disabledCommands: [],
+                forilise_serverXP: false
+GUILD DELETE
+                forilise_serverID: guild.id,
+                forilise_serverPremium: document.forilise_serverPremium,
+                forilise_serverBlacklist: document.forilise_serverBlacklist,
+                forilise_welcomeChannel: document.forilise_welcomeChannel,
+                forilise_byeChannel: document.forilise_byeChannel,
+                forilise_messageLS: document.forilise_messageLS,
+                forilise_serverLogs: document.forilise_serverLogs,
+                forilise_messageLogsID: document.forilise_messageLogsID,
+                forilise_messageLogs: document.forilise_messageLogs,
+                forilise_disabledCommands: document.forilise_disabledCommands,
+                forilise_serverXP: document.forilise_serverXP

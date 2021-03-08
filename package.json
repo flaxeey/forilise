@@ -1,0 +1,14 @@
+{
+  "name": "forilise",
+  "version": "forileto-v2",
+  "main": "sManager.js",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "^12.5.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^5.11.19",
+    "mysql2": "^2.2.5",
+    "quick.db": "^7.1.3"
+  }
+}
