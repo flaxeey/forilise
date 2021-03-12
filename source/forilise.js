@@ -10,6 +10,7 @@ client.forilise_webhookReady = new WebhookClient(
     forilise_config.foriliseConfig.readyEvLogsWebhook[0], forilise_config.foriliseConfig.readyEvLogsWebhook[1]);
 client.forilise_webhookCLogs = new WebhookClient(
     forilise_config.foriliseConfig.commandLogsWebhook[0], forilise_config.foriliseConfig.commandLogsWebhook[1]);
+    
 client.commands = new Collection();
 client.aliases = new Collection();
 

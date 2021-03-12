@@ -1,8 +1,8 @@
-const Discord = require('discord.js');
-const forilise_guild = require('../database/models/forilise_guildModel');
+//const Discord = require('discord.js');
+//const forilise_guild = require('../database/models/forilise_guildModel');
 
 module.exports = async(client, guild) => { 
-    forilise_guild.findOne({ forilise_serverID: guild.id }, function(error, document) { 
+    /*forilise_guild.findOne({ forilise_serverID: guild.id }, function(error, document) { 
         if(error) return console.error(error);
         if(document) { 
             new forilise_guild({
@@ -24,5 +24,6 @@ module.exports = async(client, guild) => {
         } else { 
             return false;
         };
- 2   });
-7};
+   });
+   */
+};
